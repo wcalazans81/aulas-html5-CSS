@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo víseos hopedados localmente</h1>
+    <hr>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagem_dinamica/desafio3.png" controls>
+        <source src="midia/limao.mp4" type="video/mp4">
+        <source src="midia/Limao-1.m4v" type="video/mp4">
+        <source src="midia/Limao-1.webm" type="video/webm">
+    </video>
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    <hr>
+    <h1>Reproduzindo Áudios</h1>
+    <hr>
+    <p>Vamos aprender a reproduzir Áudios em HTML5.</p>
+    <audio src="midia/Dionne Warwick - That's What Friends Are For-Dionne Warwick.mp3" loop controls></audio>
+    <!--mp3 wav ogg-->
+    <audio preload="metadata" controls>
+        <source src="midia/11 - Meu Pecado (2).mp3" type="audio/mpeg">
+        <source src="midia/11 - Meu Pecado (2).mp3" type="audio/ogg">
+        <source src="midia/11 - Meu Pecado (2).mp3" type="audio/wav">
+    </audio>
+    <p>Imfelizmente seu navegador não cosegue reproduzir áudio. <a href="midia/11 - Meu Pecado (2).7z" download="midia/11 - Meu Pecado (2).mp3" type="audio/mpeg">Clique aqui para baixar o arquivo MP3</a></p>
+    <h1>Carregando vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <h1>Carregando vídeo do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/129149551?color=ff0179&portrait=0" width="560" height="313" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
